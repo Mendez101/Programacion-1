@@ -5,7 +5,7 @@
 los insumos requeridos para la elaboracion de refrescos*/
 //--------------------------------------------------------------
 
-//librerias
+//libreriasJJ
 #include <iostream> //Libreria de entradas y salidas
 #include <windows.h> //Libreria de funciones de windows en consola
 #include <iomanip>//Manipular espacios de salida y entrada
@@ -16,7 +16,7 @@ void titulo (); //Declaracion de funcion 1, no retorna, no recibe parametros
 
 bool validn (string entrada) { //Validar entrada de numeros
 	bool valid = true; ////Variable de validacion
-	int tam = entrada.size (); //Variable para definir tamaño
+	int tam = entrada.size (); //Variable para definir tamaÃ±o
 	
 	for (int i = 0; i < tam; i++) { //Reconocer caracteres numericos
 		if (entrada [i] <= 47 || entrada [i] >= 57) { 
